@@ -1,0 +1,226 @@
+style.css
+Who has access
+w
+System properties
+Type
+Style Sheet
+Size
+4 KB
+Storage used
+16 KB
+Location
+Elitas
+Owner
+me
+Modified
+Jun 27, 2022 by me
+Opened
+9:41 AM by me
+Created
+May 20, 2022 with Google Drive Web (Unverified)
+Add a description
+Viewers can download
+body {
+   
+    font-family:'Courier New', Courier, monospace;
+    font-size: 100%;
+   background-color: black;
+    background-image: url("/Elitas/pictures/Ly2aDt.jpeg");
+    background-position: center;
+    max-width: 960px;
+    background-size: cover;
+    margin:auto;
+}
+
+.bodyColorChange {
+    background-image: url("");
+    background-position: center;
+   
+    background-size: cover;
+}
+
+ /* navitems */
+
+.navbar {
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    display: inline-block;
+    opacity: 100%;
+    height: 20%;
+    font-size: 100%;
+    
+}
+
+
+.navbar a{
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+    display: block;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    
+}
+
+.navbar .follow{
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1.2%;
+}
+
+
+
+.nav-item a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.navbar, .nav-item {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: block;
+    align-items: center;
+}
+
+.navbar .navbar-nav{
+    list-style: none;
+    
+}
+
+.navbar h2 {
+    color: white;
+}
+
+/* logo stuff */
+
+.logo {
+  
+   text-align: center;
+    color: white;
+    letter-spacing: 6px;
+
+}
+
+
+
+.card-container {
+    
+    max-width: 900px;
+    max-height: 900px;
+    opacity: 100%;
+    margin: 10% auto;
+    display: flex;
+    
+    
+}
+
+.card-container .pic {
+    display: inline;
+    
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+
+}
+
+.card-container .spotify {
+    border-radius:12px;  
+    display: inline; 
+    max-width: 300px; 
+    max-height: 300px; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+
+.elitasMusic {
+    text-align: center; 
+    color: white; 
+    margin: 30px auto; 
+    font-size: 250%; 
+    letter-spacing: 8px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+
+}
+
+
+
+
+
+.card-container .pic:hover {
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar a{
+        float: right;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+        display: block;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 1%;
+        padding: 1%;
+        font-size: 25px;
+    }
+
+    .navbar .follow{
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        letter-spacing: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 1%;
+        padding: 1.2%;
+        font-size: 70%;
+    }
+
+    .elitasMusic {
+        text-align: center; 
+        color: white; 
+        margin: 10% auto; 
+        font-size: 175%; 
+        letter-spacing: 8px;
+    }
+
+    body {
+        max-width: 100%;
+        background-size: cover;
+    }
+
+    .card-container {
+        max-width: 90%;
+        margin: 10% auto;
+        display: flex;
+        
+    }
+
+    .card-container .pic {
+        display: inline;
+        max-width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;  
+        margin-right: 50px;
+    }
+
+    .card-container .spotify {
+        border-radius:12px;  
+        display: inline; 
+        max-width: 220px; 
+        max-height: 90%;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
+}
