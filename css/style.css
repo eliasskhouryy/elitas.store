@@ -1,31 +1,8 @@
-style.css
-Who has access
-w
-System properties
-Type
-Style Sheet
-Size
-4 KB
-Storage used
-16 KB
-Location
-Elitas
-Owner
-me
-Modified
-Jun 27, 2022 by me
-Opened
-9:41 AM by me
-Created
-May 20, 2022 with Google Drive Web (Unverified)
-Add a description
-Viewers can download
-body {
-   
+body {   
     font-family:'Courier New', Courier, monospace;
     font-size: 100%;
    background-color: black;
-    background-image: url("pictures/Ly2aDt.jpeg");
+    background-image: url("/pictures/Ly2aDt.jpeg");
     background-position: center;
     max-width: 960px;
     background-size: cover;
@@ -106,10 +83,7 @@ body {
    text-align: center;
     color: white;
     letter-spacing: 6px;
-
 }
-
-
 
 .card-container {
     
