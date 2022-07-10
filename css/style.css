@@ -25,7 +25,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 100%;
    background-color: black;
-    background-image: url("/Elitas/pictures/Ly2aDt.jpeg");
+    background-image: url("pictures/Ly2aDt.jpeg");
     background-position: center;
     max-width: 960px;
     background-size: cover;
